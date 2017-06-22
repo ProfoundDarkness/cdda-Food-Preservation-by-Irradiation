@@ -19,5 +19,4 @@ Future plans:
  - When I've sorted out my other code additions, take a look at getting 'result_mult' to work for non-charged items.
 
 Suggested mods:
- - Bright Lights (available via cdda-launcher) which adds in a mod for battery operated tools that allows the use of storage batteries in the tool.
  - Rechargable Batteries (https://github.com/ProfoundDarkness/cdda-Rechargable-Batteries) which enables small and medium storage batteries to be recharged in the 'battery charger' vehicle part added by Bright Lights mod.
