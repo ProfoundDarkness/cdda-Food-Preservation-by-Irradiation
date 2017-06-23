@@ -154,7 +154,7 @@
 	  [ "bag_plastic", 1 ]
 	],
     [
-	  [ "lettuce", 1 ]
+	  [ "lettuce", 4 ]
     ]
   ]
 },{
@@ -268,7 +268,7 @@
 	  [ "bag_plastic", 1 ]
 	],
     [
-	  [ "carrot", 1 ]
+	  [ "carrot", 6 ]
     ]
   ]
 },{
@@ -306,7 +306,7 @@
 	  [ "bag_plastic", 1 ]
 	],
     [
-	  [ "pumpkin", 1 ]
+	  [ "pumpkin", 8 ]
     ]
   ]
 },{
@@ -401,7 +401,7 @@
 	  [ "bag_plastic", 1 ]
 	],
     [
-	  [ "grapes", 1 ]
+	  [ "grapes", 2 ]
     ]
   ]
 },{
@@ -420,7 +420,7 @@
 	  [ "bag_plastic", 1 ]
 	],
     [
-	  [ "pineapple", 1 ]
+	  [ "pineapple", 4 ]
     ]
   ]
 },{
@@ -458,7 +458,7 @@
 	  [ "bag_plastic", 1 ]
 	],
     [
-	  [ "cranberries", 1 ]
+	  [ "cranberries", 3 ]
     ]
   ]
 },{
@@ -477,7 +477,7 @@
 	  [ "bag_plastic", 1 ]
 	],
     [
-	  [ "watermelon", 1 ]
+	  [ "watermelon", 8 ]
     ]
   ]
 },{
@@ -496,7 +496,7 @@
 	  [ "bag_plastic", 1 ]
 	],
     [
-	  [ "melon", 1 ]
+	  [ "melon", 8 ]
     ]
   ]
 },{
@@ -591,7 +591,7 @@
 	  [ "bag_plastic", 1 ]
 	],
     [
-	  [ "rhubarb", 1 ]
+	  [ "rhubarb", 4 ]
     ]
   ]
 },{
@@ -687,6 +687,742 @@
 	],
     [
 	  [ "celery", 1 ]
+    ]
+  ]
+},{
+  "//": "Recipes below here are the multi-charge veggy based on bag capacity and veggy volume.",
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_apple",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+    [
+      [ "bag_plastic", 1 ]
+    ],
+    [
+      [ "apple", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_banana",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "banana", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_orange",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "orange", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_lemon",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "lemon", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_blueberries",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "blueberries", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_strawberries",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "strawberries", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_lettuce",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 8,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "lettuce", 32 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_cabbage",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "cabbage", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_tomato",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "tomato", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_broccoli",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "broccoli", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_zucchini",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "zucchini", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_onion",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "onion", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_carrot",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "carrot", 144 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_corn",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "corn", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_pumpkin",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 2,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "pumpkin", 16 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_grapefruit",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "grapefruit", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_pear",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "pear", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_cherries",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "cherries", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_plums",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "plums", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_grapes",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "grapes", 48 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_pineapple",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 6,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "pineapple", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_peach",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "peach", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_cranberries",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "cranberries", 72 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_watermelon",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 2,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "watermelon", 16 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_melon",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 6,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "melon", 48 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_raspberries",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "raspberries", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_blackberries",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "blackberries", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_mango",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "mango", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_pomegranate",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "pomegranate", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_rhubarb",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "rhubarb", 48 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_papaya",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "papaya", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_kiwi",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "kiwi", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_apricot",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "apricot", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_cucumber",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "cucumber", 24 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "copy-from": "veg_irradiated_abstract",
+  "result": "irradiated_celery",
+  "id_suffix": "batch_in_a_bag",
+  "result_mult": 24,
+  "tools": [
+    [ [ "survivor_food_irradiator", 25 ] ],
+    [
+      [ "vac_sealer", 10 ],
+      [ "makeshift_sealer", 20 ]
+    ]
+  ],
+  "components": [
+	[
+	  [ "bag_plastic", 1 ]
+	],
+    [
+	  [ "celery", 24 ]
     ]
   ]
 }

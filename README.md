@@ -15,7 +15,6 @@ Whats new to Cataclysm-DDA via this mod:
  - MANY new recipes to transform various food items that you might find into the irradiated counterpart.  No new irradiated foods were added, only recipes to create existing irradiated foods.
 
 Future plans:
- - Alter/add recipes so that smaller food stuffs can have more than 1 to a bag, ie blueberries use 1 bag but fit several inside.  Based on in game volume information.
  - When I've sorted out my other code additions, take a look at getting 'result_mult' to work for non-charged items.
 
 Suggested mods:
