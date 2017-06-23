@@ -14,61 +14,51 @@
     "max_charges": 200
   },
   {
-    "type" : "recipe",
     "result": "survivor_food_irradiator",
+    "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
-    "skill_used": "fabrication", "//": "Most of the difficulty is in putting all the pieces together correctly/safely.",
-    "skills_required": [ [ "cooking", 3 ], [ "electronics", 6 ] ], "//": "Need to know a lot about electronics and something about cooking/chemistry to configure it correctly.",
+    "//": "Need to know a lot about electronics and something about cooking/chemistry to configure it correctly.",
+    "skill_used": "fabrication",
     "difficulty": 6,
+    "skills_required": [ [ "cooking", 3 ], [ "electronics", 6 ] ],
     "time": 120000,
     "reversible": true,
     "decomp_learn": 4,
-    "autolearn": [ [ "fabrication", 5 ], [ "cooking", 3 ], [ "electronics", 6 ] ],
-	"using": [ [ "welding_standard", 5 ] ],
-    "qualities":[
-      {"id":"HAMMER","level":1}
+    "autolearn": [
+      [ "fabrication", 5 ],
+      [ "cooking", 3 ],
+      [ "electronics", 6 ]
     ],
-    "tools": [
-      [
-        [ "soldering_iron", 30 ],
-        [ "toolset", 30 ]
-      ]
-    ],
-	"components": [
-	  [ [ "solder_wire", 200 ] ],
-	  [ [ "e_scrap", 2 ] ],
-	  [ [ "lightstrip_dead", 2 ] ],
-	  [ [ "processor", 1] ],
-	  [ [ "circuit", 3 ] ],
+    "using": [ [ "welding_standard", 5 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "tools": [ [ [ "soldering_iron", 30 ], [ "toolset", 30 ] ] ],
+    "components": [
+      [ [ "solder_wire", 200 ] ],
+      [ [ "e_scrap", 2 ] ],
+      [ [ "lightstrip_dead", 2 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "circuit", 3 ] ],
       [ [ "RAM", 2 ] ],
       [ [ "cable", 30 ] ],
-	  [ [ "amplifier", 1 ], [ "power_supply", 1 ] ],
-	  [ [ "lead", 5000 ] ]
-	]
+      [ [ "amplifier", 1 ], [ "power_supply", 1 ] ],
+      [ [ "lead", 5000 ] ]
+    ]
   },
   {
-    "//": "Pretty much the recipe for bottle_plastic though a tad cheaper and quicker.",
-	"//": "So it seems one can get a plastic chunk from 3 plastic bags, modified recipe to fit this.",
-	"//": "Turns out some unfinished code that doesn't allow non-charge based items to create multiple items.",
-    "type" : "recipe",
     "result": "bag_plastic",
+    "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_CONTAINERS",
+    "//": "Greatly reduced the time requirement as the code doesn't support multipliers (result_mult) on non-charged items.",
     "skill_used": "fabrication",
     "difficulty": 4,
-    "time": 5000, "//": "Greatly reduced the time requirement as the code doesn't support multipliers (result_mult) on non-charged items.",
+    "time": 5000,
     "autolearn": true,
     "tools": [
-      [
-        ["mold_plastic", -1]
-      ],
+      [ [ "mold_plastic", -1 ] ],
       [ [ "surface_heat", 5, "LIST" ] ]
     ],
-    "components": [
-      [
-        ["plastic_chunk", 1]
-      ]
-    ]
+    "components": [ [ [ "plastic_chunk", 1 ] ] ]
   }
 ]
