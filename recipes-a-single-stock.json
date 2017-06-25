@@ -7,8 +7,8 @@
     "skill_used": "cooking",
     "difficulty": 3,
     "skills_required": [ "mechanics", 2 ],
-    "time": 22101, "//": "22101 is the average time cost with a max difference of 1898 (2 minutes).",
-    "batch_time_factors": [ 83, 5 ],
+    "time": 22000, "//": "22000 is the mode (good choice for abstract).",
+    "batch_time_factors": [ 83, 5 ], "//": "Uncertain about these values, batching should be relativley rewarding.",
     "autolearn": true,
     "container": "bag_plastic"
   },
@@ -46,7 +46,7 @@
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
     "tools": [
-      [ [ "survivor_food_irradiator", 23 ], [ "irradiaterig", 23 ] ],
+      [ [ "survivor_food_irradiator", 25 ], [ "irradiaterig", 25 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -59,9 +59,9 @@
     "result": "irradiated_lemon",
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
-    "time": 21490,
+    "time": 21000,
     "tools": [
-      [ [ "survivor_food_irradiator", 13 ], [ "irradiaterig", 13 ] ],
+      [ [ "survivor_food_irradiator", 15 ], [ "irradiaterig", 15 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -75,7 +75,7 @@
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
     "tools": [
-      [ [ "survivor_food_irradiator", 27 ], [ "irradiaterig", 27 ] ],
+      [ [ "survivor_food_irradiator", 25 ], [ "irradiaterig", 25 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -89,7 +89,7 @@
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
     "tools": [
-      [ [ "survivor_food_irradiator", 27 ], [ "irradiaterig", 27 ] ],
+      [ [ "survivor_food_irradiator", 25 ], [ "irradiaterig", 25 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -117,7 +117,7 @@
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
     "tools": [
-      [ [ "survivor_food_irradiator", 31 ], [ "irradiaterig", 31 ] ],
+      [ [ "survivor_food_irradiator", 30 ], [ "irradiaterig", 30 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -131,7 +131,7 @@
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
     "tools": [
-      [ [ "survivor_food_irradiator", 24 ], [ "irradiaterig", 24 ] ],
+      [ [ "survivor_food_irradiator", 25 ], [ "irradiaterig", 25 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -145,7 +145,7 @@
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
     "tools": [
-      [ [ "survivor_food_irradiator", 23 ], [ "irradiaterig", 23 ] ],
+      [ [ "survivor_food_irradiator", 25 ], [ "irradiaterig", 25 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -159,7 +159,7 @@
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
     "tools": [
-      [ [ "survivor_food_irradiator", 24 ], [ "irradiaterig", 24 ] ],
+      [ [ "survivor_food_irradiator", 25 ], [ "irradiaterig", 25 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -186,7 +186,7 @@
     "result": "irradiated_carrot",
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
-    "time": 21400,
+    "time": 21000,
     "tools": [
       [ [ "survivor_food_irradiator", 10 ], [ "irradiaterig", 10 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
@@ -202,7 +202,7 @@
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
     "tools": [
-      [ [ "survivor_food_irradiator", 38 ], [ "irradiaterig", 38 ] ],
+      [ [ "survivor_food_irradiator", 40 ], [ "irradiaterig", 40 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -217,7 +217,7 @@
     "type": "recipe",
     "time": 24000,
     "tools": [
-      [ [ "survivor_food_irradiator", 81 ], [ "irradiaterig", 81 ] ],
+      [ [ "survivor_food_irradiator", 80 ], [ "irradiaterig", 80 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -231,7 +231,7 @@
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
     "tools": [
-      [ [ "survivor_food_irradiator", 27 ], [ "irradiaterig", 27 ] ],
+      [ [ "survivor_food_irradiator", 25 ], [ "irradiaterig", 25 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -245,7 +245,7 @@
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
     "tools": [
-      [ [ "survivor_food_irradiator", 23 ], [ "irradiaterig", 23 ] ],
+      [ [ "survivor_food_irradiator", 25 ], [ "irradiaterig", 25 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -259,7 +259,7 @@
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
     "tools": [
-      [ [ "survivor_food_irradiator", 27 ], [ "irradiaterig", 27 ] ],
+      [ [ "survivor_food_irradiator", 25 ], [ "irradiaterig", 25 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -273,7 +273,7 @@
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
     "tools": [
-      [ [ "survivor_food_irradiator", 27 ], [ "irradiaterig", 27 ] ],
+      [ [ "survivor_food_irradiator", 25 ], [ "irradiaterig", 25 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -286,6 +286,7 @@
     "result": "irradiated_grapes",
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
+    "time": 23000,
     "tools": [
       [ [ "survivor_food_irradiator", 40 ], [ "irradiaterig", 40 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
@@ -301,7 +302,7 @@
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
     "tools": [
-      [ [ "survivor_food_irradiator", 33 ], [ "irradiaterig", 33 ] ],
+      [ [ "survivor_food_irradiator", 35 ], [ "irradiaterig", 35 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -328,9 +329,9 @@
     "result": "irradiated_cranberries",
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
-    "time": 22700,
+    "time": 23000,
     "tools": [
-      [ [ "survivor_food_irradiator", 46 ], [ "irradiaterig", 46 ] ],
+      [ [ "survivor_food_irradiator", 45 ], [ "irradiaterig", 45 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -345,7 +346,7 @@
     "type": "recipe",
     "time": 24000,
     "tools": [
-      [ [ "survivor_food_irradiator", 81 ], [ "irradiaterig", 81 ] ],
+      [ [ "survivor_food_irradiator", 80 ], [ "irradiaterig", 80 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -358,6 +359,7 @@
     "result": "irradiated_melon",
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
+    "time": 23000,
     "tools": [
       [ [ "survivor_food_irradiator", 40 ], [ "irradiaterig", 40 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
@@ -414,6 +416,7 @@
     "result": "irradiated_pomegranate",
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
+    "time": 23000,
     "tools": [
       [ [ "survivor_food_irradiator", 40 ], [ "irradiaterig", 40 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
@@ -428,6 +431,7 @@
     "result": "irradiated_rhubarb",
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
+    "time": 23000,
     "tools": [
       [ [ "survivor_food_irradiator", 40 ], [ "irradiaterig", 40 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
@@ -443,7 +447,7 @@
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
     "tools": [
-      [ [ "survivor_food_irradiator", 27 ], [ "irradiaterig", 27 ] ],
+      [ [ "survivor_food_irradiator", 25 ], [ "irradiaterig", 25 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -456,9 +460,8 @@
     "result": "irradiated_kiwi",
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
-    "time": 21500,
     "tools": [
-      [ [ "survivor_food_irradiator", 13 ], [ "irradiaterig", 13 ] ],
+      [ [ "survivor_food_irradiator", 15 ], [ "irradiaterig", 15 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -499,7 +502,7 @@
     "result": "irradiated_celery",
     "copy-from": "veg_irradiated_abstract",
     "type": "recipe",
-    "time": 21400,
+    "time": 21000,
     "tools": [
       [ [ "survivor_food_irradiator", 10 ], [ "irradiaterig", 10 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]

@@ -7,8 +7,8 @@
     "skill_used": "cooking",
     "difficulty": 3,
     "skills_required": [ "mechanics", 2 ],
-    "time": 45985, "//": "45985 is the average time cost with a max difference of 20615 (21 minutes).",
-    "batch_time_factors": [ 83, 5 ],
+    "time": 50000, "//": "50000 is the mode which makes a good default.",
+    "batch_time_factors": [ 83, 5 ], "//": "batch_time_factors should match the single item.",
     "autolearn": true,
     "container": "bag_plastic"
   },
@@ -19,8 +19,9 @@
     "id_suffix": "batch_in_a_bag",
     "//": "Recipes below here are the multi-charge veggy based on bag capacity and veggy volume.",
     "result_mult": 24,
+    "time": 44000,
     "tools": [
-      [ [ "survivor_food_irradiator", 489 ], [ "irradiaterig", 489 ] ],
+      [ [ "survivor_food_irradiator", 350 ], [ "irradiaterig", 350 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -35,9 +36,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
-    "time": 52800,
+    "time": 53000,
     "tools": [
-      [ [ "survivor_food_irradiator", 733 ], [ "irradiaterig", 733 ] ],
+      [ [ "survivor_food_irradiator", 525 ], [ "irradiaterig", 525 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -52,8 +53,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
+    "time": 46000,
     "tools": [
-      [ [ "survivor_food_irradiator", 554 ], [ "irradiaterig", 554 ] ],
+      [ [ "survivor_food_irradiator", 395 ], [ "irradiaterig", 395 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -68,9 +70,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
-    "time": 37560,
+    "time": 38000,
     "tools": [
-      [ [ "survivor_food_irradiator", 319 ], [ "irradiaterig", 319 ] ],
+      [ [ "survivor_food_irradiator", 225 ], [ "irradiaterig", 225 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -86,7 +88,7 @@
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
     "tools": [
-      [ [ "survivor_food_irradiator", 652 ], [ "irradiaterig", 652 ] ],
+      [ [ "survivor_food_irradiator", 465 ], [ "irradiaterig", 465 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -102,7 +104,7 @@
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
     "tools": [
-      [ [ "survivor_food_irradiator", 652 ], [ "irradiaterig", 652 ] ],
+      [ [ "survivor_food_irradiator", 465 ], [ "irradiaterig", 465 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -117,9 +119,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 8,
-    "time": 31560,
+    "time": 32000,
     "tools": [
-      [ [ "survivor_food_irradiator", 243 ], [ "irradiaterig", 243 ] ],
+      [ [ "survivor_food_irradiator", 175 ], [ "irradiaterig", 175 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -136,7 +138,7 @@
     "result_mult": 24,
     "time": 54000,
     "tools": [
-      [ [ "survivor_food_irradiator", 766 ], [ "irradiaterig", 766 ] ],
+      [ [ "survivor_food_irradiator", 545 ], [ "irradiaterig", 545 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -151,8 +153,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
+    "time": 48000,
     "tools": [
-      [ [ "survivor_food_irradiator", 596 ], [ "irradiaterig", 596 ] ],
+      [ [ "survivor_food_irradiator", 425 ], [ "irradiaterig", 425 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -167,8 +170,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
+    "time": 46000,
     "tools": [
-      [ [ "survivor_food_irradiator", 554 ], [ "irradiaterig", 554 ] ],
+      [ [ "survivor_food_irradiator", 395 ], [ "irradiaterig", 395 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -183,8 +187,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
+    "time": 47000,
     "tools": [
-      [ [ "survivor_food_irradiator", 586 ], [ "irradiaterig", 586 ] ],
+      [ [ "survivor_food_irradiator", 420 ], [ "irradiaterig", 420 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -199,9 +204,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
-    "time": 39480,
+    "time": 39000,
     "tools": [
-      [ [ "survivor_food_irradiator", 371 ], [ "irradiaterig", 371 ] ],
+      [ [ "survivor_food_irradiator", 265 ], [ "irradiaterig", 265 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -216,9 +221,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
-    "time": 35400,
+    "time": 35000,
     "tools": [
-      [ [ "survivor_food_irradiator", 260 ], [ "irradiaterig", 260 ] ],
+      [ [ "survivor_food_irradiator", 185 ], [ "irradiaterig", 185 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -233,9 +238,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
-    "time": 59760,
+    "time": 60000,
     "tools": [
-      [ [ "survivor_food_irradiator", 922 ], [ "irradiaterig", 922 ] ],
+      [ [ "survivor_food_irradiator", 660 ], [ "irradiaterig", 660 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -250,9 +255,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 2,
-    "time": 27400,
+    "time": 27000,
     "tools": [
-      [ [ "survivor_food_irradiator", 163 ], [ "irradiaterig", 163 ] ],
+      [ [ "survivor_food_irradiator", 115 ], [ "irradiaterig", 115 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -268,7 +273,7 @@
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
     "tools": [
-      [ [ "survivor_food_irradiator", 652 ], [ "irradiaterig", 652 ] ],
+      [ [ "survivor_food_irradiator", 465 ], [ "irradiaterig", 465 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -283,8 +288,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
+    "time": 47000,
     "tools": [
-      [ [ "survivor_food_irradiator", 570 ], [ "irradiaterig", 570 ] ],
+      [ [ "survivor_food_irradiator", 405 ], [ "irradiaterig", 405 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -300,7 +306,7 @@
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
     "tools": [
-      [ [ "survivor_food_irradiator", 652 ], [ "irradiaterig", 652 ] ],
+      [ [ "survivor_food_irradiator", 465 ], [ "irradiaterig", 465 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -316,7 +322,7 @@
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
     "tools": [
-      [ [ "survivor_food_irradiator", 652 ], [ "irradiaterig", 652 ] ],
+      [ [ "survivor_food_irradiator", 465 ], [ "irradiaterig", 465 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -331,9 +337,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
-    "time": 61800,
+    "time": 62000,
     "tools": [
-      [ [ "survivor_food_irradiator", 978 ], [ "irradiaterig", 978 ] ],
+      [ [ "survivor_food_irradiator", 700 ], [ "irradiaterig", 700 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -348,9 +354,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 6,
-    "time": 29700,
+    "time": 30000,
     "tools": [
-      [ [ "survivor_food_irradiator", 203 ], [ "irradiaterig", 203 ] ],
+      [ [ "survivor_food_irradiator", 145 ], [ "irradiaterig", 145 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -365,8 +371,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
+    "time": 44000,
     "tools": [
-      [ [ "survivor_food_irradiator", 489 ], [ "irradiaterig", 489 ] ],
+      [ [ "survivor_food_irradiator", 350 ], [ "irradiaterig", 350 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -381,9 +388,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
-    "time": 66600,
+    "time": 67000,
     "tools": [
-      [ [ "survivor_food_irradiator", 1108 ], [ "irradiaterig", 1108 ] ],
+      [ [ "survivor_food_irradiator", 790 ], [ "irradiaterig", 790 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -398,9 +405,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 2,
-    "time": 27400,
+    "time": 27000,
     "tools": [
-      [ [ "survivor_food_irradiator", 163 ], [ "irradiaterig", 163 ] ],
+      [ [ "survivor_food_irradiator", 115 ], [ "irradiaterig", 115 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -415,9 +422,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 6,
-    "time": 31200,
+    "time": 31000,
     "tools": [
-      [ [ "survivor_food_irradiator", 244 ], [ "irradiaterig", 244 ] ],
+      [ [ "survivor_food_irradiator", 175 ], [ "irradiaterig", 175 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -432,9 +439,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
-    "time": 52920,
+    "time": 53000,
     "tools": [
-      [ [ "survivor_food_irradiator", 736 ], [ "irradiaterig", 736 ] ],
+      [ [ "survivor_food_irradiator", 525 ], [ "irradiaterig", 525 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -449,9 +456,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
-    "time": 52920,
+    "time": 53000,
     "tools": [
-      [ [ "survivor_food_irradiator", 736 ], [ "irradiaterig", 736 ] ],
+      [ [ "survivor_food_irradiator", 525 ], [ "irradiaterig", 525 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -466,8 +473,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
+    "time": 44000,
     "tools": [
-      [ [ "survivor_food_irradiator", 489 ], [ "irradiaterig", 489 ] ],
+      [ [ "survivor_food_irradiator", 350 ], [ "irradiaterig", 350 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -482,9 +490,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
-    "time": 61800,
+    "time": 62000,
     "tools": [
-      [ [ "survivor_food_irradiator", 978 ], [ "irradiaterig", 978 ] ],
+      [ [ "survivor_food_irradiator", 700 ], [ "irradiaterig", 700 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -499,9 +507,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
-    "time": 61800,
+    "time": 62000,
     "tools": [
-      [ [ "survivor_food_irradiator", 978 ], [ "irradiaterig", 978 ] ],
+      [ [ "survivor_food_irradiator", 700 ], [ "irradiaterig", 700 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -517,7 +525,7 @@
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
     "tools": [
-      [ [ "survivor_food_irradiator", 652 ], [ "irradiaterig", 652 ] ],
+      [ [ "survivor_food_irradiator", 465 ], [ "irradiaterig", 465 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -532,9 +540,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
-    "time": 37800,
+    "time": 38000,
     "tools": [
-      [ [ "survivor_food_irradiator", 326 ], [ "irradiaterig", 326 ] ],
+      [ [ "survivor_food_irradiator", 230 ], [ "irradiaterig", 230 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -549,8 +557,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
+    "time": 44000,
     "tools": [
-      [ [ "survivor_food_irradiator", 489 ], [ "irradiaterig", 489 ] ],
+      [ [ "survivor_food_irradiator", 350 ], [ "irradiaterig", 350 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -565,8 +574,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
+    "time": 44000,
     "tools": [
-      [ [ "survivor_food_irradiator", 489 ], [ "irradiaterig", 489 ] ],
+      [ [ "survivor_food_irradiator", 350 ], [ "irradiaterig", 350 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
@@ -581,9 +591,9 @@
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
-    "time": 35400,
+    "time": 35000,
     "tools": [
-      [ [ "survivor_food_irradiator", 260 ], [ "irradiaterig", 260 ] ],
+      [ [ "survivor_food_irradiator", 185 ], [ "irradiaterig", 185 ] ],
       [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ]
     ],
     "components": [
